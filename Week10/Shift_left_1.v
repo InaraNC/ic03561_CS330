@@ -1,0 +1,12 @@
+module Shift_left_1
+{
+input [63:0] imm_data,
+output [63:0] shifted
+};
+
+always @(imm_data)
+shifted <= imm_data<<1;
+
+
+endmodule
+
